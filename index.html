@@ -3,129 +3,174 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="ServiceProof helps independent service professionals capture clear proof of completed work and share polished reports.">
-    <title>ServiceProof | Proof of service, made simple.</title>
+    <meta name="description" content="ServiceProof helps independent service professionals document completed work with evidence, customer confirmation, and a shareable report.">
+    <meta name="theme-color" content="#0c111b">
+    <title>ServiceProof | Evidence that speaks for the work.</title>
     <link rel="icon" href="assets/serviceproof-app-icon.png">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="ServiceProof home">
-        <img src="assets/serviceproof-app-icon.png" alt="ServiceProof app icon">
+        <img src="assets/serviceproof-app-icon.png" alt="">
         <span>ServiceProof</span>
       </a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">Menu</button>
       <nav id="site-navigation" aria-label="Primary navigation">
-        <a href="#how-it-works">How it works</a>
+        <a href="#workflow">How it works</a>
+        <a href="#evidence">Evidence</a>
         <a href="#industries">Industries</a>
-        <a href="#credits">Report Credits</a>
-        <a href="app-store.html">App Store</a>
+        <a href="#credits">Credits</a>
         <a href="support.html">Support</a>
       </nav>
+      <a class="header-cta" href="app-store.html">Launch details</a>
     </header>
 
     <main>
       <section class="hero" aria-labelledby="hero-title">
         <div class="content-wrap hero-layout">
-          <div class="hero-copy">
-            <p class="eyebrow">For independent service professionals</p>
-            <h1 id="hero-title">Proof of service, made simple.</h1>
-            <p class="lede">Capture the work. Confirm the result. Share a clear report your customer can keep.</p>
+          <div class="hero-copy reveal">
+            <p class="eyebrow eyebrow-light">For field service professionals</p>
+            <h1 id="hero-title">Evidence that speaks for the work.</h1>
+            <p class="lede">Capture the job, confirm the outcome, and leave every customer with a polished service report.</p>
             <div class="hero-actions">
-              <a class="button primary" href="#how-it-works">See the workflow</a>
-              <a class="button secondary" href="app-store.html">App Store materials</a>
+              <a class="button primary" href="#workflow">See the workflow</a>
+              <a class="button ghost" href="#credits">Explore Report Credits</a>
             </div>
-            <p class="launch-note">Built for a U.S. App Store launch.</p>
+            <dl class="hero-facts" aria-label="ServiceProof highlights">
+              <div><dt>Before + after</dt><dd>Clear visual proof</dd></div>
+              <div><dt>Customer-ready</dt><dd>Rating and signature</dd></div>
+              <div><dt>Local by default</dt><dd>Files stay on device</dd></div>
+            </dl>
           </div>
-          <div class="phone-stage" aria-label="ServiceProof report screen">
-            <img class="phone-screen" src="assets/serviceproof-app-screen.png" alt="ServiceProof running on an iPhone, showing a completed service report">
+          <div class="hero-product reveal" aria-label="ServiceProof on iPhone">
+            <div class="product-label"><span class="status-dot"></span>Start on iPhone</div>
+            <div class="phone-shell">
+              <img src="assets/app-how-welcome.jpg" alt="ServiceProof welcome screen on iPhone">
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="how-it-works" class="section workflow" aria-labelledby="workflow-title">
+      <section id="workflow" class="section workflow" aria-labelledby="workflow-title">
         <div class="content-wrap">
-          <p class="eyebrow">A focused service workflow</p>
-          <h2 id="workflow-title">Built around the moment the job is done.</h2>
-          <div class="workflow-grid">
-            <article>
-              <span class="step">01</span>
-              <h3>Capture</h3>
-              <p>Add before-and-after photos, service details, and notes while they are still fresh.</p>
-            </article>
-            <article>
-              <span class="step">02</span>
-              <h3>Confirm</h3>
-              <p>Invite a customer to review the result, leave a service rating, and sign the report.</p>
-            </article>
-            <article>
-              <span class="step">03</span>
-              <h3>Share</h3>
-              <p>Finalize a polished PDF report and share it through the standard iPhone share sheet.</p>
-            </article>
+          <div class="section-heading reveal">
+            <p class="eyebrow">How it works</p>
+            <h2 id="workflow-title">From install to an on-site customer sign-off.</h2>
+            <p>ServiceProof follows the natural order of a field-service visit. The professional stays in control, while the customer receives a clear record of the work.</p>
+          </div>
+          <ol class="how-grid" aria-label="ServiceProof six-step workflow">
+            <li class="how-step reveal"><span class="how-number">01</span><div class="workflow-shot"><img src="assets/app-how-welcome.jpg" alt="ServiceProof welcome screen with Get Started button"></div><h3>Install and start</h3><p>Download ServiceProof on iPhone and begin with a short guided setup.</p></li>
+            <li class="how-step reveal"><span class="how-number">02</span><div class="workflow-shot"><img src="assets/app-how-profile.jpg" alt="ServiceProof business setup screen"></div><h3>Add your business</h3><p>Set the business details that will appear on your customer-facing service reports.</p></li>
+            <li class="how-step reveal"><span class="how-number">03</span><div class="workflow-shot"><img src="assets/app-how-preview.jpg" alt="ServiceProof report preview showing job details"></div><h3>Build the job record</h3><p>Add the customer, service, and job details before closing out the visit.</p></li>
+            <li class="how-step reveal"><span class="how-number">04</span><div class="workflow-shot"><img src="assets/app-evidence-capture.jpg" alt="ServiceProof evidence capture screen with multiple before and after photo pairs"></div><h3>Capture the evidence</h3><p>Document multiple before-and-after pairs and keep damage records separate.</p></li>
+            <li class="how-step reveal"><span class="how-number">05</span><div class="workflow-shot"><img src="assets/app-how-signature.jpg" alt="ServiceProof customer confirmation screen with rating and signature fields"></div><h3>Review and sign on site</h3><p>Let the customer review the result, choose a rating, and add their signature.</p></li>
+            <li class="how-step reveal"><span class="how-number">06</span><div class="workflow-shot"><img src="assets/serviceproof-app-screen.png" alt="ServiceProof finalized report screen with final PDF option"></div><h3>Finalize and share</h3><p>Create the formal report version, then open or share its PDF from the iPhone.</p></li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="evidence" class="section evidence" aria-labelledby="evidence-title">
+        <div class="content-wrap evidence-layout">
+          <div class="evidence-copy reveal">
+            <p class="eyebrow">Visible, not vague</p>
+            <h2 id="evidence-title">Put the result beside the starting point.</h2>
+            <p>Customers should not have to guess what was done. ServiceProof brings paired photos, notes, checklist completion, and confirmation into one readable record.</p>
+            <ul class="check-list">
+              <li>Multiple before-and-after pairs per report</li>
+              <li>Damage records kept distinct from finished work</li>
+              <li>PDF output designed for sharing and follow-up</li>
+            </ul>
+          </div>
+          <div class="comparison reveal" style="--comparison-position: 51%;">
+            <img class="comparison-after" src="assets/report-after.jpg" alt="Example service result after the work was completed">
+            <div class="comparison-before-wrap"><img src="assets/report-before.jpg" alt="Example condition before the service work"></div>
+            <div class="comparison-label before-label">Before</div>
+            <div class="comparison-label after-label">After</div>
+            <div class="comparison-divider" aria-hidden="true"><span></span></div>
+            <input class="comparison-range" type="range" min="0" max="100" value="51" aria-label="Compare before and after service evidence">
           </div>
         </div>
       </section>
 
-      <section class="section proof" aria-labelledby="proof-title">
-        <div class="content-wrap proof-layout">
-          <div>
-            <p class="eyebrow">Show the work clearly</p>
-            <h2 id="proof-title">Before and after, side by side.</h2>
-            <p>ServiceProof keeps the report practical: what was found, what was done, and the visible result.</p>
+      <section class="section record-proof" aria-labelledby="record-proof-title">
+        <div class="content-wrap">
+          <div class="section-heading split-heading reveal">
+            <div><p class="eyebrow">Inside the record</p><h2 id="record-proof-title">A clear record at every handoff.</h2></div>
+            <p>These app views show the information a service professional sees while documenting a job, reviewing it with a customer, and issuing the final version.</p>
           </div>
-          <div class="comparison" aria-label="Example before and after images">
-            <figure>
-              <img src="assets/report-before.jpg" alt="Example before photo from a service report">
-              <figcaption>Before</figcaption>
-            </figure>
-            <figure>
-              <img src="assets/report-after.jpg" alt="Example after photo from a service report">
-              <figcaption>After</figcaption>
-            </figure>
+          <div class="record-proof-grid">
+            <article class="record-proof-card reveal">
+              <div class="app-shot"><img src="assets/app-evidence-capture.jpg" alt="ServiceProof evidence capture screen with three documented vehicle photos"></div>
+              <div><span class="industry-number">01</span><h3>Capture service evidence</h3><p>Attach multiple photos to a job and keep the service details beside the visual record.</p></div>
+            </article>
+            <article class="record-proof-card reveal">
+              <div class="app-shot"><img src="assets/app-evidence-confirmation.jpg" alt="ServiceProof customer confirmation screen showing before and after photo totals"></div>
+              <div><span class="industry-number">02</span><h3>Confirm the outcome</h3><p>Review photo totals and completed work before collecting a customer rating and signature.</p></div>
+            </article>
+            <article class="record-proof-card reveal">
+              <div class="app-shot"><img src="assets/app-evidence-finalize.jpg" alt="ServiceProof finalization screen with a report credit summary"></div>
+              <div><span class="industry-number">03</span><h3>Finalize once</h3><p>See the one-credit effect before creating the formal report version and its shareable PDF.</p></div>
+            </article>
           </div>
         </div>
       </section>
 
       <section id="industries" class="section industries" aria-labelledby="industries-title">
         <div class="content-wrap">
-          <p class="eyebrow">Made for practical field work</p>
-          <h2 id="industries-title">Three service types, one clear record.</h2>
-          <div class="industry-grid">
-            <article><h3>Mobile Car Detailing</h3><p>Document inspection points, surface condition, and the finished vehicle.</p></article>
-            <article><h3>Residential Cleaning</h3><p>Record completed rooms, customer requests, and the result left behind.</p></article>
-            <article><h3>Handyman</h3><p>Capture repair notes, materials, photos, and customer confirmation in one report.</p></article>
+          <div class="section-heading split-heading reveal">
+            <div><p class="eyebrow">Made for work in the field</p><h2 id="industries-title">Three service trades. Evidence that fits the work.</h2></div>
+            <p>Each focused template gives a professional a practical way to show what they found, what changed, and what was completed.</p>
           </div>
+          <div class="industry-grid">
+            <article class="industry-card reveal">
+              <img src="assets/industry-detailing-evidence.jpg" alt="Illustrative before and after evidence of a mobile car detailing service">
+              <div class="industry-card-copy"><div class="industry-card-meta"><span class="industry-number">01</span><span>Example evidence</span></div><h3>Mobile Car Detailing</h3><p>Show exterior condition, paint or wheel inspection points, completed detail steps, and the finished vehicle.</p></div>
+            </article>
+            <article class="industry-card reveal">
+              <img src="assets/industry-cleaning-evidence.jpg" alt="Illustrative before and after evidence of a residential cleaning service">
+              <div class="industry-card-copy"><div class="industry-card-meta"><span class="industry-number">02</span><span>Example evidence</span></div><h3>Residential Cleaning</h3><p>Record room-level requests, visible starting condition, completed areas, and the clean result left for the customer.</p></div>
+            </article>
+            <article class="industry-card reveal">
+              <img src="assets/industry-handyman-evidence.jpg" alt="Illustrative before and after evidence of a handyman door repair">
+              <div class="industry-card-copy"><div class="industry-card-meta"><span class="industry-number">03</span><span>Example evidence</span></div><h3>Handyman</h3><p>Document repair observations, materials or work notes, aligned finished work, and customer confirmation.</p></div>
+            </article>
+          </div>
+          <p class="industry-disclosure reveal">Industry images are illustrative examples of the kind of before-and-after evidence a report can contain. They do not show customer work.</p>
         </div>
       </section>
 
       <section id="credits" class="section credits" aria-labelledby="credits-title">
         <div class="content-wrap credits-layout">
-          <div>
-            <p class="eyebrow">Simple, one-time credits</p>
-            <h2 id="credits-title">Pay only when you finalize a report.</h2>
-            <p>One Report Credit is used when a formal report version is successfully finalized. Drafting, previewing, downloading, sharing, or deleting does not use an additional credit.</p>
+          <div class="credits-copy reveal">
+            <p class="eyebrow eyebrow-light">Straightforward pricing</p>
+            <h2 id="credits-title">Pay when a formal report is finished.</h2>
+            <p>One Report Credit is used only when a formal report version is successfully finalized. Drafting, reviewing, downloading, sharing, and deleting do not use an additional credit.</p>
+            <a class="text-link light-link" href="app-store.html">View App Store details</a>
           </div>
-          <div class="credit-table" role="table" aria-label="Report Credit launch reference">
-            <div class="credit-row credit-head" role="row"><span role="columnheader">Package</span><span role="columnheader">U.S. launch reference</span></div>
-            <div class="credit-row" role="row"><span role="cell">5 Report Credits</span><span role="cell">US$4.99</span></div>
-            <div class="credit-row featured" role="row"><span role="cell">20 Report Credits</span><span role="cell">US$14.99</span></div>
-            <div class="credit-row" role="row"><span role="cell">50 Report Credits</span><span role="cell">US$29.99</span></div>
+          <div class="credit-table reveal" role="table" aria-label="Report Credit launch reference">
+            <div class="credit-row credit-head" role="row"><span role="columnheader">Report Credits</span><span role="columnheader">U.S. launch</span></div>
+            <div class="credit-row" role="row"><span role="cell">5 credits</span><strong role="cell">US$4.99</strong></div>
+            <div class="credit-row featured" role="row"><span role="cell"><em>Most chosen</em>20 credits</span><strong role="cell">US$14.99</strong></div>
+            <div class="credit-row" role="row"><span role="cell">50 credits</span><strong role="cell">US$29.99</strong></div>
           </div>
-          <p class="fine-print">Prices are App Store launch reference values for the United States. Local price, currency, and tax are shown by Apple before purchase. ServiceProof has no subscription, auto-renewal, or transferable balance.</p>
+          <p class="fine-print reveal">U.S. launch reference only. Apple shows the applicable price, currency, and tax before purchase. No subscription, auto-renewal, cash-out, or transfer.</p>
         </div>
       </section>
 
-      <section class="section privacy-callout" aria-labelledby="privacy-title">
-        <div class="content-wrap split-callout">
-          <div>
-            <p class="eyebrow">Privacy by design</p>
-            <h2 id="privacy-title">Your report files stay on your device in V1.</h2>
-          </div>
-          <div>
-            <p>Photos, signatures, and generated PDFs remain on the iPhone unless you choose to share them. ServiceProof does not enable iCloud report sync in V1.</p>
-            <a class="text-link" href="privacy.html">Read the privacy summary</a>
-          </div>
+      <section class="section privacy" aria-labelledby="privacy-title">
+        <div class="content-wrap privacy-layout reveal">
+          <p class="eyebrow">Privacy by design</p>
+          <h2 id="privacy-title">Your service files stay with you.</h2>
+          <p>In V1, photos, signatures, and generated PDFs remain on your iPhone unless you choose to share them. ServiceProof does not enable iCloud report sync.</p>
+          <a class="button secondary" href="privacy.html">Read privacy details</a>
+        </div>
+      </section>
+
+      <section class="closing" aria-labelledby="closing-title">
+        <div class="content-wrap closing-layout reveal">
+          <div><p class="eyebrow">ServiceProof for iPhone</p><h2 id="closing-title">Give every completed job a clear ending.</h2></div>
+          <a class="button primary" href="app-store.html">Prepare for launch</a>
         </div>
       </section>
     </main>
