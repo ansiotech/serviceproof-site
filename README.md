@@ -1,6 +1,6 @@
 # ServiceProof Website
 
-Static public website and App Store listing reference for ServiceProof.
+Static public marketing, legal, and support website for ServiceProof.
 
 ## Local preview
 
@@ -15,7 +15,7 @@ Open `http://localhost:8788`.
 
 Publish from the `main` branch and the repository root. `.nojekyll` keeps GitHub Pages from applying Jekyll processing.
 
-Before App Store submission, replace the pre-release support-contact placeholder in `support.html` with the monitored public support address, then update this site.
+The public site must not include internal App Store metadata checklists, review credentials, submission instructions, or non-public operational details.
 
 ## Public domain
 
